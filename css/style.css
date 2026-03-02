@@ -241,3 +241,148 @@ margin: 15px 0;
     color: #1d1f2eb2;
     text-transform: uppercase;
 }
+/* ========================= */
+/*        992px              */
+/* ========================= */
+
+@media (max-width: 992px) {
+
+    nav {
+        gap: 40px;
+    }
+
+    .sec-2 > article {
+        flex-wrap: wrap;
+    }
+
+    .card-box {
+        gap: 40px 20px;
+    }
+
+    .three-bloks {
+        flex-wrap: wrap;
+    }
+
+    .texts {
+        padding: 0 20px;
+    }
+}
+
+
+/* ========================= */
+/*        768px (Tablet)     */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+        gap: 20px;
+    }
+
+    nav > ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .hero {
+        padding-top: 100px;
+        height: 70vh;
+    }
+
+    .hero > h1 {
+        font-size: 32px;
+    }
+
+    .sec-1 > p {
+        width: 90%;
+    }
+
+    .block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .images {
+        flex-direction: column;
+    }
+
+    .two-img {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .three-bloks {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+
+/* ========================= */
+/*        576px (Mobile)     */
+/* ========================= */
+
+@media (max-width: 576px) {
+
+    .wrapper {
+        padding: 0 15px;
+    }
+
+    nav > ul {
+        gap: 15px;
+    }
+
+    nav > ul li {
+        font-size: 12px;
+    }
+
+    .hero {
+        padding-top: 80px;
+        height: 60vh;
+    }
+
+    .hero > h1 {
+        font-size: 24px;
+    }
+
+    .hero > p {
+        font-size: 14px;
+    }
+
+    .hero > a button {
+        width: 180px;
+        height: 35px;
+    }
+
+    .sec-1 > h1 {
+        font-size: 22px;
+    }
+
+    .card-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .texts {
+        padding: 0;
+        text-align: center;
+    }
+
+    .texts > h1 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .three-bloks {
+        gap: 40px;
+    }
+
+}
