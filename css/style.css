@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+.wrapper {
+    padding: 0 30px;
+    font-family: 'Karla', sans-serif;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+nav>ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+nav>ul li {
+    font-size: 14px;
+    line-height: 80px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+nav>.cart {
+    font-size: 14px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #a25f4b4d;
+}
+
+nav>.cart span {
+    width: 20px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    background: black;
+    display: inline-block;
+    margin: 0 0 2px 3px;
+}
+
+.hero {
+    height: 80vh;
+    background: url(../img/img2.png) no-repeat center bottom, url(../img/img1.png) no-repeat center center / cover;
+    color: white;
+    text-align: center;
+    border: 1px solid red;
+    padding-top: 160px;
+
+}
+
+.hero>h6 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.hero>h1 {
+    font-size: 47px;
+    text-transform: capitalize;
+}
+
+.hero>p {
+    font-size: 17px;
+    margin-bottom: 48px;
+}
+
+.hero>a button {
+    width: 230px;
+    height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+main {
+    padding: 123px 0 0;
+}
+
+.sec-1 {
+    text-align: center;
+}
+
+.sec-1>h1 {
+    font-size: 28px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.sec-1>p {
+    width: 658px;
+    color: #1d1f2eb2;
+    text-align: center;
+    line-height: 28px;
+    margin: 15px auto 20px;
+}
+
+.sec-1>button {
+    height: 30px;
+    color: #a25f4b;
+    line-height: 30px;
+    background: transparent;
+    border-bottom: 2px solid #a25f4b33;
+}
+
+section>h2 {
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 100px 0;
+}
+
+.sec-2>article {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.sec-2>article h1,
+.card>h1 {
+    color: #1d1f2eb2;
+    font-size: 20px;
+    margin: 30px 0 5px;
+}
+
+.sec-2>article p,
+.card>p {
+    color: #1d1f2eb2;
+    display: inline-block;
+    line-height: 32px;
+}
+
+.sec-2>article span,
+.card>span {
+    color: #a25f4b;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+span+p {
+    text-decoration: line-through gray;
+    margin-left: 10px;
+}
+
+.card-box {
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 65px 18px;
+}
+
+.card {
+    text-align: center;
+}
+
+.block{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.images{
+    display: flex;
+    gap: 20px;
+}
+
+.two-img {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.texts {
+    padding: 0 60px;
+    flex-basis: 460px;
+}
+
+.texts > h6 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.texts > h1{
+font-size: 36px;
+line-height: 50px;
+margin: 15px 0;
+}
+
+.texts > p{
+    color: #1d1f2eb2;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.texts > a button{
+    width: 172px;
+    height: 35px;
+    color: white;
+    background: #1d1f2eb2;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.three-bloks{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box{
+    flex-basis: 300px;
+}
+
+.box > h1{
+    font-size: 20px;
+    line-height: 32px;
+    margin: 30px 0 10px;
+}
+
+.box > p{
+    color: #1d1f2eb2;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+.box > h6{
+    color: #1d1f2eb2;
+    text-transform: uppercase;
+}
